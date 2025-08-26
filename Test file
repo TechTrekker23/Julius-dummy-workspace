@@ -11,3 +11,16 @@ plt.xlabel("Month")
 plt.ylabel("Revenue ($)")
 plt.savefig("sales_chart.png")
 print("Sales chart generated.")
+
+# Auto-generated plotting code: Sales vs Months
+import matplotlib.pyplot as plt
+months = [" 2000]", " \"May\"]", "nan"]
+sales = [1800.0, 0.0, 0.0]
+plt.figure(figsize=(8, 4))
+plt.plot(months, sales, marker="o", linewidth=2)
+plt.title("Sales vs Months")
+plt.xlabel("Months")
+plt.ylabel("Sales")
+plt.grid(True, linestyle=":", alpha=0.6)
+plt.tight_layout()
+plt.show()
