@@ -10,3 +10,4 @@ plt.xlabel("Month")
 plt.ylabel("Revenue ($)")
 plt.savefig("sales_chart.png")
 print("Sales chart generated.")
+June,2200
